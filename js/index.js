@@ -54,13 +54,16 @@ header1.addEventListener('click', (e) => {
 const body = document.querySelector('body');
 
 window.addEventListener('resize', (e) => {
-    body.style.backgroundColor = 'skyblue';
+    body.style.backgroundColor = 'white';
     e.stopPropagation();
 });
 
 //Scroll Event
 window.addEventListener('scroll', (e) =>{
-    body.style.backgroundColor = 'white';
+    body.style.backgroundColor = 'skyblue';
    e.stopPropagation();
 });
+
+//mousedown event
+
 
